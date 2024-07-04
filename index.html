@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./assets/img/outo.png">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <title>Prática JS 3.3.3</title>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="./assets/img/eu_rosto.png" alt="">
+        <h1 class="sitename">Bali Restaurante</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="menu" class="menu section">
+
+      <!-- Seção Título -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Menu</h2>
+        <p><span>Escolha o número do </span> <span class="description-title">primeiro E SEGUNDO PRATO</span></p>
+      </div><!-- Fim Seção Título -->
+
+      <!--Pratos-->
+      <div class="container">
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="tab-pane fade active show" id="menu-starters">
+
+              <!-- Menu Entradas -->
+              <div class="tab-header text-center">
+                <h3>5 Primeiros Pratos</h3>
+              </div>
+
+              <div id="curso" class="row gy-5">
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img src="assets/img/menu/menu-item-1.png"
+                      class="menu-img img-fluid" alt="Lasanha" value="1"></a>
+                  <h4>Lasanha</h4>
+                  <p class="ingredients">
+                    Nº1
+                  </p>
+                  <p class="price">
+                    €15.95
+                  </p>
+                </div>
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img src="assets/img/menu/menu-item-2.png"
+                      class="menu-img img-fluid" alt="Panqueca" value="2"></a>
+                  <h4>Panqueca</h4>
+                  <p class="ingredients">
+                    Nº2
+                  </p>
+                  <p class="price">
+                    €4.95
+                  </p>
+                </div>
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img src="assets/img/menu/menu-item-3.png"
+                      class="menu-img img-fluid" alt="Salada com macarrão" value="3"></a>
+                  <h4>Salada c/ Macarrão</h4>
+                  <p class="ingredients">
+                    Nº3
+                  </p>
+                  <p class="price">
+                    €18.95
+                  </p>
+                </div>
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img src="assets/img/menu/menu-item-4.png"
+                      class="menu-img img-fluid" alt="Salada com ervilha" value="4"></a>
+                  <h4>Salada c/ Ervilha</h4>
+                  <p class="ingredients">
+                    Nº4
+                  </p>
+                  <p class="price">
+                    €2.95
+                  </p>
+                </div>
+
+                <div class="col-lg-4 menu-item">
+                  <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img src="assets/img/menu/menu-item-5.png"
+                      class="menu-img img-fluid" alt="Picanha ao molho" value="5"></a>
+                  <h4>Picanha ao Molho</h4>
+                  <p class="ingredients">
+                    Nº5
+                  </p>
+                  <p class="price">
+                    €22.95
+                  </p>
+                </div>
+
+                <!-- Menu Principal -->
+                <div class="tab-header text-center">
+                  <h3>5 Segundos Pratos</h3>
+                </div>
+
+                <div class="row gy-5">
+
+                  <div class="col-lg-4 menu-item">
+                    <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
+                        src="assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt="Maminha ao molho"
+                        value="6"></a>
+                    <h4>Maminha ao Molho</h4>
+                    <p class="ingredients">
+                      Nº8
+                    </p>
+                    <p class="price">
+                      €12.95
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4 menu-item">
+                    <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
+                        src="assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt="Salada de agrião"
+                        value="7"></a>
+                    <h4>Salada de Agrião</h4>
+                    <p class="ingredients">
+                      Nº9
+                    </p>
+                    <p class="price">
+                      €8.95
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4 menu-item">
+                    <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
+                        src="assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt="Ovos mexidos"
+                        value="8"></a>
+                    <h4>Ovos Mexidos</h4>
+                    <p class="ingredients">
+                      Nº10
+                    </p>
+                    <p class="price">
+                      €12.95
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4 menu-item">
+                    <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
+                        src="assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt="Bacalhau" value="9"></a>
+                    <h4>Bacalhau</h4>
+                    <p class="ingredients">
+                      Nº11
+                    </p>
+                    <p class="price">
+                      €5.95
+                    </p>
+                  </div>
+
+                  <div class="col-lg-4 menu-item">
+                    <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
+                        src="assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt="Robalo" value="10"></a>
+                    <h4>Robalo</h4>
+                    <p class="ingredients">
+                      Nº12
+                    </p>
+                    <p class="price">
+                      €14.95
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div><br><br>
+
+      <div class="col-lg-12" style="text-align: center">
+        <button onclick="escolher()" type="button" class="btn btn-dark">Escolher Menu</button>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Bali Restaurante</strong> <span>Todos os direitos
+          reservados</span></p>
+      <div class="credits">
+      </div>
+  </footer>
+
+  <!-- Rolar para inicio -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Pré-carregador -->
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
